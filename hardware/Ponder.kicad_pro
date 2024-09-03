@@ -475,8 +475,8 @@
   ],
   "text_variables": {
     "GIT_HEALTH": "dirty",
-    "GIT_VERSION": "v0.0.0-1-g3c799ec-dirty",
-    "PROJECT_DESCRIPTION": "Isolated Hexa UART-to-USB bridge, based on the RP2350",
+    "GIT_VERSION": "v0.0.0-2-g4a91e29-dirty",
+    "PROJECT_DESCRIPTION": "Iso Hexa USB-UART",
     "PROJECT_NAME": "Ponder"
   }
 }
