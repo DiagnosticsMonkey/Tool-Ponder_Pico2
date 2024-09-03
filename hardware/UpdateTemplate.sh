@@ -19,9 +19,9 @@ ScriptName="${0##*/}"
 ExUsage="Usage: Run this script to update template from base values.${NewLn}   Example: ../${ScriptName}"
 
 # Parameters (set them here)
-NEW_PROJECT_NAME="NewProject"
-NEW_REV="0.2"
-NEW_DESCRIPTION="New Description"
+NEW_PROJECT_NAME="Ponder"
+NEW_REV="0.1"
+NEW_DESCRIPTION="Isolated Hexa UART-to-USB bridge, based on the RP2350"
 NEW_DATE=$(date +%Y-%m-%d)  # Automatically get the current date
 
 # Retrieve Git information

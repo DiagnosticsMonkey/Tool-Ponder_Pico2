@@ -474,9 +474,9 @@
     ]
   ],
   "text_variables": {
-    "GIT_HEALTH": "TAKTAK",
-    "GIT_VERSION": "TAKTAK",
-    "PROJECT_DESCRIPTION": "TAKTAK Description KiCAD",
-    "PROJECT_NAME": "TAKTAK ProjName KiCAD"
+    "GIT_HEALTH": "dirty",
+    "GIT_VERSION": "v0.0.0-1-g3c799ec-dirty",
+    "PROJECT_DESCRIPTION": "Isolated Hexa UART-to-USB bridge, based on the RP2350",
+    "PROJECT_NAME": "Ponder"
   }
 }
