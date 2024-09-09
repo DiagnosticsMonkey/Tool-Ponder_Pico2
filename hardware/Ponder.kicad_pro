@@ -513,8 +513,8 @@
     ]
   ],
   "text_variables": {
-    "GIT_HEALTH": "dirty",
-    "GIT_VERSION": "v0.0.0-2-g4a91e29-dirty",
+    "GIT_HEALTH": "clean",
+    "GIT_VERSION": "v0.0.0-7-gb397fa5",
     "PROJECT_DESCRIPTION": "Iso Hexa USB-UART",
     "PROJECT_NAME": "Ponder"
   }
