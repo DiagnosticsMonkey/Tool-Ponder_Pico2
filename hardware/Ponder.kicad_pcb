@@ -49454,10 +49454,10 @@
       (net 90 "/DUT0_TX") (pinfunction "VIA") (pintype "input") (tstamp 043145bb-2275-4ae2-80e8-7624a6f0a518))
     (pad "8" smd roundrect (at 2.475 1.905 180) (size 1.95 0.6) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 75 "/DUT0_VCC") (pinfunction "VDD2") (pintype "power_in") (tstamp 0682da4b-0c5a-44ce-b7c4-0942653d87f4))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+    (model "${KIPRJMOD}/Parts/STP_CDIS_18012x15411x (rev1).stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -49796,10 +49796,10 @@
       (net 94 "/DUT1_TX") (pinfunction "VIA") (pintype "input") (tstamp d1149527-fdcc-45f3-b329-813a71216f30))
     (pad "8" smd roundrect (at 2.475 1.905 180) (size 1.95 0.6) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 77 "/DUT1_VCC") (pinfunction "VDD2") (pintype "power_in") (tstamp 9d354b2f-68b5-4299-bc52-81054878b0bb))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+    (model "${KIPRJMOD}/Parts/STP_CDIS_18012x15411x (rev1).stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -50084,10 +50084,10 @@
       (net 110 "/DUT5_TX") (pinfunction "VIA") (pintype "input") (tstamp 48d2da4f-35d6-49a8-8a08-64d3844a50c9))
     (pad "8" smd roundrect (at 2.475 1.905) (size 1.95 0.6) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 87 "/DUT5_VCC") (pinfunction "VDD2") (pintype "power_in") (tstamp 3c7b70b8-d4c6-4804-a9de-75ee60368b4b))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+    (model "${KIPRJMOD}/Parts/STP_CDIS_18012x15411x (rev1).stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -50492,10 +50492,10 @@
       (net 102 "/DUT3_TX") (pinfunction "VIA") (pintype "input") (tstamp 50eb6f07-6809-4f55-ae59-7232bbd14c6d))
     (pad "8" smd roundrect (at 2.475 1.905) (size 1.95 0.6) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 83 "/DUT3_VCC") (pinfunction "VDD2") (pintype "power_in") (tstamp 1e194882-089f-4bbc-a347-69fc64ba09cf))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+    (model "${KIPRJMOD}/Parts/STP_CDIS_18012x15411x (rev1).stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -51020,10 +51020,10 @@
       (net 106 "/DUT4_TX") (pinfunction "VIA") (pintype "input") (tstamp 2528f4c3-48aa-4133-a18c-c7859607a41b))
     (pad "8" smd roundrect (at 2.475 1.905) (size 1.95 0.6) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 85 "/DUT4_VCC") (pinfunction "VDD2") (pintype "power_in") (tstamp 22fff219-f2e2-4ba4-bdf4-39ca9db87eab))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+    (model "${KIPRJMOD}/Parts/STP_CDIS_18012x15411x (rev1).stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -51818,10 +51818,10 @@
       (net 98 "/DUT2_TX") (pinfunction "VIA") (pintype "input") (tstamp 5b800f99-d81c-4349-93da-23bc7cd77823))
     (pad "8" smd roundrect (at 2.475 1.905 180) (size 1.95 0.6) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 81 "/DUT2_VCC") (pinfunction "VDD2") (pintype "power_in") (tstamp 90e4a718-3cf4-415a-af78-190edaec0df8))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+    (model "${KIPRJMOD}/Parts/STP_CDIS_18012x15411x (rev1).stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 90))
     )
   )
 
