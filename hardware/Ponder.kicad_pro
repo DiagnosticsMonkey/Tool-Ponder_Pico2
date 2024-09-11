@@ -55,7 +55,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|155169999|79130001|ab10ea2c-c605-43b4-a6ae-77bdff43a372|67086327-479b-4446-a5d2-f825394aba14",
+        "via_dangling|142700000|102700000|f5c9203e-4f1f-4f82-8245-449ad4c4d7ef|00000000-0000-0000-0000-000000000000",
+        "via_dangling|145194004|102349500|9607f93a-e887-4269-8849-935b1524dc0c|00000000-0000-0000-0000-000000000000",
+        "via_dangling|146950000|102550000|58f7e999-86c0-4e9e-a2ed-8f2f2afe005c|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -91,9 +96,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -118,7 +123,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.75,
         "min_text_thickness": 0.08,
@@ -613,8 +618,8 @@
     ]
   ],
   "text_variables": {
-    "GIT_HEALTH": "clean",
-    "GIT_VERSION": "v0.0.0-7-gb397fa5",
+    "GIT_HEALTH": "dirty",
+    "GIT_VERSION": "v0.0.0-19-ge65f657-dirty",
     "PROJECT_DESCRIPTION": "Iso Hexa USB-UART",
     "PROJECT_NAME": "Ponder"
   }

@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Ponder")(type "KiCad")(uri "${KIPRJMOD}/Parts/MCU_RaspberryPi_RP2350.kicad_sym")(options "")(descr ""))
   (lib (name "W25Q")(type "KiCad")(uri "${KIPRJMOD}/Parts/W25Q64JVXGIQ_TR.kicad_sym")(options "")(descr ""))
+  (lib (name "Harwin M20")(type "KiCad")(uri "${KIPRJMOD}/Parts/M20-8890245.kicad_sym")(options "")(descr ""))
 )
