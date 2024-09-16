@@ -20,8 +20,8 @@ ExUsage="Usage: Run this script to update template from base values.${NewLn}   E
 
 # Parameters (set them here)
 NEW_PROJECT_NAME="Ponder"
-NEW_REV="0.1"
-NEW_DESCRIPTION="Iso Hexa USB-UART"
+NEW_REV="1.0RC"
+NEW_DESCRIPTION="Hex Iso USB-UART"
 NEW_DATE=$(date +%Y-%m-%d)  # Automatically get the current date
 
 # Retrieve Git information
