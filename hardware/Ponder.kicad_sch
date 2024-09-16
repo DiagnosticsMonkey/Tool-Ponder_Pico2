@@ -6,8 +6,8 @@
 
   (title_block
     (title "Ponder")
-    (date "2024-09-12")
-    (rev "0.1")
+    (date "2024-09-16")
+    (rev "1.0RC")
   )
 
   (lib_symbols
