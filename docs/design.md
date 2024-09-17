@@ -13,14 +13,16 @@ The following sections will cover detail of various interfaces across the board.
 >This means that where possible, anything providing a supply voltage will be in the form of a socket. Conversely, anything to be supplied a voltage will be presented as a header.  
 >N.B. J10 is shown in renders as a header - It is a socket in the BoM. Its selection jumper, J9, is a 1.27 pitch for convenience.
 
-### BOOT
+### Buttons
+
+#### BOOT
 
 The BOOT button is used to put the MCU into USB bootloader mode in order to load *.UF2 files. Simply hold the button whilst powering on the board, then the board will present as a mass-storage device.
 
 >[!TIP]
 >Once booted, the button can act as a user input connected to `GPIO3`.
 
-### RESET
+#### RESET
 
 The reset button resets the device
 
@@ -29,9 +31,11 @@ The reset button resets the device
 The USB-C connector provides power to the board and is the primary mechanism for programming the board.  
 Doing the boards intended use-case, the USB connector is also used for the data handling for the CDC ACM endpoints (i.e. your PC providing multiple COM ports for accessing each of the UARTs on-board).
 
+---
+
 ### Isolated UARTs (J2, J3, J4, J5, J6, J7)
 
-The isolated UARTs are provided by six 4 pin, 2.54 pitch, headers around the edge. The isolators connected to these headers `must` be fed with a voltage and ground by each device under test, otherwise no UART comms will be passed to the MCU.
+The isolated UARTs are provided by six 4 pin, 2.54 pitch, headers around the edge. The isolators connected to these headers `must` be fed with a voltage and ground by __each__ device under test, otherwise the UART comms will not be passed to the MCU.
 
 - Supply voltage on VCC for `UART`[`0` .. `5`] is 2.375 .. 5.5V  
    - The isolators are also providing level translation and will support logic from 2v0 to 5v5.
@@ -40,7 +44,11 @@ The isolated UARTs are provided by six 4 pin, 2.54 pitch, headers around the edg
 >If you require 1v8 logic -> A drop-in replacement isolator is the [MAX12931](https://www.analog.com/media/en/technical-documentation/data-sheets/max12930-max12931.pdf).  
 >This part is significantly higher cost, hence not the default.
 
+---
+
 ### I2C / SPI / Breakout (J8, J11, TPs)
+
+The board includes some additional connection options for users to experiment with.
 
 #### J8
 
