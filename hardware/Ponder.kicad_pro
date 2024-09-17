@@ -619,7 +619,7 @@
   ],
   "text_variables": {
     "GIT_HEALTH": "clean",
-    "GIT_VERSION": "v1.0RC-0-g2dda170",
+    "GIT_VERSION": "v1.0-1-g085788d",
     "PROJECT_DESCRIPTION": "Hex Iso USB-UART",
     "PROJECT_NAME": "Ponder"
   }
