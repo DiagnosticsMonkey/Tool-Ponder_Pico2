@@ -1,1 +1,2 @@
 - [Introduction](/README)
+- [Design](/design)

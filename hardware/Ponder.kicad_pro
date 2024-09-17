@@ -572,7 +572,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../docs/assets/v1.0/Ponder.step",
       "vrml": ""
     },
     "page_layout_descr_file": "TAKTAK_Template.kicad_wks"
