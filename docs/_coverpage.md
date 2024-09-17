@@ -1,13 +1,12 @@
-![logo](_media/diagnosticsMonkeyBlack.png)
+![logo](assets/v1.0/Ponder-front.png ':size=50%')
 
-#  Ponder <small>0.1</small>
+#  Ponder <small>1.0</small>
 
 >  Isolated Hexa UART-USB adapter from Diagnostics
 
 - :see_no_evil:
 - :hear_no_evil:
 - :speak_no_evil:
-- [Emoji list](https://gist.github.com/rxaviers/7360908) :eyes:
 
-[GitHub](https://github.com/PandiTAKTAK/)
+[Purchase](/purchase)
 [Getting Started](/README)
