@@ -25,7 +25,7 @@ Whilst the majority of the expanded headers are self explanatory, the following 
 Available in `/hardware/outputs`.
 
 ```pdf
-./assets/v1.0/ponder.pdf
+./assets/v1.0/Ponder.pdf
 ```
 
 ---
