@@ -56,6 +56,8 @@
         }
       ],
       "drc_exclusions": [
+        "copper_edge_clearance|139100000|86180000|115a2746-91f4-4cbc-99a7-2ec857ff37a3|794f9f47-5aec-4bcb-9165-fb79f95b679e",
+        "copper_edge_clearance|141900000|86180000|bc0abe1a-232a-4b64-abe5-72d525aebd26|14525798-c8e9-4b26-9144-1a7ddeaa643b",
         "courtyards_overlap|155169999|79130001|67086327-479b-4446-a5d2-f825394aba14|ab10ea2c-c605-43b4-a6ae-77bdff43a372"
       ],
       "meta": {
