@@ -1,0 +1,24 @@
+### Footprint positions - created on Wed Oct 30 15:43:02 2024 ###
+### Printed by KiCad version 7.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                      Package                                                       PosX       PosY       Rot  Side
+C13       10u                      C_0805_2012Metric                                         149.3000   -79.0000    0.0000  top
+D10       NSR0530HT1G              D_SOD-323                                                 127.4000   -78.8000  -90.0000  top
+G1        ModStrike                ModStrike                                                 125.0000  -129.2500   90.0000  top
+J1        USB_C_Receptacle_USB2.0  USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal   140.7000   -76.5000  180.0000  top
+R1        5k1                      R_0402_1005Metric                                         142.2000   -82.6000   90.0000  top
+R2        5k1                      R_0402_1005Metric                                         138.6000   -82.6000   90.0000  top
+R4        1k                       R_0402_1005Metric                                         146.7000   -75.1000  -90.0000  top
+R7        10k                      R_0402_1005Metric                                         130.0000   -79.4000  -90.0000  top
+R8        1k                       R_0402_1005Metric                                         127.4000   -75.4000  -90.0000  top
+R43       10k                      R_0402_1005Metric                                         123.0000   -79.6000    0.0000  top
+R44       10k                      R_0402_1005Metric                                         125.8000   -79.4000   90.0000  top
+R45       10k                      R_0402_1005Metric                                         137.8650  -142.0000  -90.0000  top
+R46       10k                      R_0402_1005Metric                                         141.0650  -142.0000  -90.0000  top
+R47       10k                      R_0402_1005Metric                                         147.2150  -142.0000  -90.0000  top
+R48       10k                      R_0402_1005Metric                                         144.3150  -142.0000  -90.0000  top
+SW1       434133025816             SW_Push_1P1T_NO_Vertical_Wuerth_434133025816              150.6250   -76.0000    0.0000  top
+SW2       434133025816             SW_Push_1P1T_NO_Vertical_Wuerth_434133025816              131.2250   -76.0000    0.0000  top
+U1        ~                        RaspberryPi-Pico-SMD-TP                                   130.0000  -135.5800    0.0000  top
+## End

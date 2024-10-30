@@ -56,10 +56,7 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|155169999|79130001|67086327-479b-4446-a5d2-f825394aba14|ab10ea2c-c605-43b4-a6ae-77bdff43a372",
-        "via_dangling|142700000|102700000|f5c9203e-4f1f-4f82-8245-449ad4c4d7ef|00000000-0000-0000-0000-000000000000",
-        "via_dangling|145194004|102349500|9607f93a-e887-4269-8849-935b1524dc0c|00000000-0000-0000-0000-000000000000",
-        "via_dangling|146950000|102550000|58f7e999-86c0-4e9e-a2ed-8f2f2afe005c|00000000-0000-0000-0000-000000000000"
+        "courtyards_overlap|155169999|79130001|67086327-479b-4446-a5d2-f825394aba14|ab10ea2c-c605-43b4-a6ae-77bdff43a372"
       ],
       "meta": {
         "version": 2
@@ -510,7 +507,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Ponder.kicad_pro",
+    "filename": "Ponder-Pico2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -618,9 +615,9 @@
     ]
   ],
   "text_variables": {
-    "GIT_HEALTH": "clean",
-    "GIT_VERSION": "v1.0-1-g085788d",
+    "GIT_HEALTH": "dirty",
+    "GIT_VERSION": "v0.0.0-0-g1c144e3-dirty",
     "PROJECT_DESCRIPTION": "Hex Iso USB-UART",
-    "PROJECT_NAME": "Ponder"
+    "PROJECT_NAME": "Ponder-Pico2"
   }
 }

@@ -19,8 +19,8 @@ ScriptName="${0##*/}"
 ExUsage="Usage: Run this script to update template from base values.${NewLn}   Example: ../${ScriptName}"
 
 # Parameters (set them here)
-NEW_PROJECT_NAME="Ponder"
-NEW_REV="1.0"
+NEW_PROJECT_NAME="Ponder-Pico2"
+NEW_REV="0.1"
 NEW_DESCRIPTION="Hex Iso USB-UART"
 NEW_DATE=$(date +%Y-%m-%d)  # Automatically get the current date
 

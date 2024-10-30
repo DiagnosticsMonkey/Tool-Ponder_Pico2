@@ -1,8 +1,8 @@
-# Ponder
+# Ponder - Pico 2
 
-!>This documentation is not yet built
+> [!WARNING]This documentation is not yet complete
 
-This board is primarily designed to act as a 6-way isolated USB-UART bridge using the RP2350. This can be used to interface to multiple devices-under-test simultaneously.
+This board is primarily designed to act as a 6-way isolated USB-UART bridge using the Pico 2. This can be used to interface to multiple devices-under-test simultaneously.
 
 Unlike FTDI devices, no additional drivers are required to be installed in order for the device to function as a UART to USB bridge; Support is baked in to modern operating system kernels using USB CDC ACM.
 
@@ -39,4 +39,7 @@ Ponder Stibbons is from the [Discworld universe](https://wiki.lspace.org/Discwor
 
 ## Attribution
 
-The baseline design references [the minimal reference](https://datasheets.raspberrypi.com/rp2350/hardware-design-with-rp2350.pdf) from Raspberry Pi.
+- Raspberry Pi - Pico 2 model used is by DrakerDG -> https://www.tinkercad.com/things/4xIXctwrZsr-raspberry-pi-pico-2
+  - Modified to add TPs https://www.tinkercad.com/things/fXc3pdA6Lbr-raspberry-pi-pico-2-w-tps-rough
+  - Converted from `OBJ` to `WRL` using -> https://imagetostl.com/convert/file/obj/to/wrl
+  
