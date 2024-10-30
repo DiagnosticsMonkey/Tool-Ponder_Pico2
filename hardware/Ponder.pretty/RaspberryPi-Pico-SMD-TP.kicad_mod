@@ -229,7 +229,7 @@
   (pad "48" thru_hole roundrect (at 8 -40.5) (size 1.6 1.6) (drill 1.02) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 552744e7-60fa-4a60-8d23-f321ef51bf91))
   (pad "49" thru_hole roundrect (at 8 -38) (size 1.6 1.6) (drill 1.02) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 78562933-01c0-459f-ada6-ecaf3bfb1f78))
   (pad "50" thru_hole roundrect (at 11.5 -30.5) (size 1.6 1.6) (drill 1.02) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp e8d05194-8015-4ff1-b2e0-8d8fdf3947a5))
-  (model "C:/git/Tool-Ponder/hardware/Parts/Pico2.wrl"
+  (model "${KIPRJMOD}/Parts/Pico2.wrl"
     (offset (xyz 10 29.9 0))
     (scale (xyz 0.39 0.39 0.39))
     (rotate (xyz 0 0 0))
