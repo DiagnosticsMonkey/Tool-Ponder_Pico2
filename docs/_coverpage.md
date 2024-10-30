@@ -1,6 +1,6 @@
 ![logo](assets/v1.0/Ponder-front.png ':size=50%')
 
-#  Ponder <small>1.0</small>
+#  Ponder <small>Pico 2 - 1.0</small>
 
 >  Isolated Hexa UART-USB adapter from Diagnostics
 
