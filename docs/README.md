@@ -8,6 +8,10 @@ Unlike FTDI devices, no additional drivers are required to be installed in order
 
 In short, it is a quick and convenient way to debug devices via UART. No need for multiple cables and isolators.
 
+> [!NOTE]
+> This board is a variant of [Ponder](https://diagnosticsmonkey.github.io/Tool-Ponder/#/)  
+> It exists due to a pro-tracted lack of consumer supply for the RP2350B, yet abundant supply of Pico 2's. I want to get software sorted.
+
 ---
 
 ## Why Isolated?
@@ -39,7 +43,9 @@ Ponder Stibbons is from the [Discworld universe](https://wiki.lspace.org/Discwor
 
 ## Attribution
 
-- Raspberry Pi - Pico 2 model used is by DrakerDG -> https://www.tinkercad.com/things/4xIXctwrZsr-raspberry-pi-pico-2
+- Pico footprint from ncarandini -> https://github.com/ncarandini/KiCad-RP-Pico
+  - Modified to add Pico 2 TPs and adjust USB mount holes
+- Raspberry Pi - Pico 2 model used is originally by DrakerDG -> https://www.tinkercad.com/things/4xIXctwrZsr-raspberry-pi-pico-2
   - Modified to add TPs https://www.tinkercad.com/things/fXc3pdA6Lbr-raspberry-pi-pico-2-w-tps-rough
   - Converted from `OBJ` to `WRL` using -> https://imagetostl.com/convert/file/obj/to/wrl
   

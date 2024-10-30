@@ -6,47 +6,45 @@ This page details the feature-set and pin-mapping at a high-level.
 
 ?>The following has been reproduced for ease of access, the schematic is the source of truth.
 
-| RP2350 GPIO     | Function   |
-|:---------------:|:----------:|
-| GPIO0           | UART0 TX   |
-| GPIO1           | UART0 RX   |
-| GPIO2           | UART0 LED  |
-| GPIO3           | USR SW     |
-| GPIO4           | RP_PWR_LED |
-| GPIO5           | Spare, TP  |
-| GPIO6           | Spare, TP  |
-| GPIO7           | Spare, TP  |
-| GPIO8           | UART1 LED  |
-| GPIO9           | Spare, TP  |
-| ...             | ...        |
-| GPIO15          | Spare, J11 |
-| GPIO16          | Spare, J11 |
-| GPIO17          | Spare, J11 |
-| GPIO18          | Spare, J11 |
-| GPIO19          | UART2 LED  |
-| GPIO20          | UART1 TX   |
-| GPIO21          | UART1 RX   |
-| GPIO22          | UART2 TX   |
-| GPIO23          | UART2 RX   |
-| GPIO24          | SPI1 MISO, I2C0 SDA |
-| GPIO25          | SPI1 CSn, I2C0 SCL  |
-| GPIO26          | SPI1 SCK, I2C1 SDA  |
-| GPIO27          | SPI1 MOSI, I2C1 SCL |
-| GPIO28          | UART3 RX   |
-| GPIO29          | UART3 TX   |
-| GPIO30          | UART3 LED  |
-| ...             | ...        |
-| GPIO32          | UART4 RX   |
-| GPIO33          | UART4 TX   |
-| GPIO34          | UART4 LED  |
-| ...             | ...        |
-| GPIO40          | Spare, TP  |
-| GPIO41          | Spare, TP  |
-| GPIO42          | Spare, TP  |
-| ...             | ...        |
-| GPIO45          | UART4 LED  |
-| GPIO46          | UART4 RX   |
-| GPIO47          | UART4 TX   |
+| Function               | Ponder Pico2 | Ponder          |
+|:----------------------:|:------------:|:---------------:|
+| UART0 TX               | GPIO0        | GPIO0           |
+| UART0 RX               | GPIO1        | GPIO1           |
+| UART0 LED              | GPIO2        | GPIO2           |
+| USR SW                 | GPIO3        | GPIO3           |
+| UART1 TX               | GPIO4        | GPIO20          |
+| UART1 RX               | GPIO5        | GPIO21          |
+| UART1 LED              | GPIO6        | GPIO8           |
+| UART2 LED              | GPIO7        | GPIO19          |
+| UART2 TX               | GPIO8        | GPIO22          |
+| UART2 RX               | GPIO9        | GPIO23          |
+| UART3 LED              | GPIO11       | GPIO30          |
+| UART3 TX               | GPIO12       | GPIO29          |
+| UART3 RX               | GPIO13       | GPIO28          |
+| SPI**0** MISO/I2C0 SDA | GPIO16       | N/A             |
+| SPI**0** CSn/I2C0 SCL  | GPIO17       | N/A             |
+| SPI**0** SCK/I2C1 SDA  | GPIO18       | N/A             |
+| SPI**0** MOSI/I2C1 SCL | GPIO19       | N/A             |
+| UART4 RX               | GPIO20       | GPIO32          |
+| UART4 TX               | GPIO21       | GPIO33          |
+| UART4 LED              | GPIO22       | GPIO34          |
+| RP_PWR_LED             | GPIO25       | GPIO4           |
+| UART5 RX               | GPIO26       | GPIO46          |
+| UART5 TX               | GPIO27       | GPIO47          |
+| UART5 LED              | GPIO28       | GPIO45          |
+
+<details>
+  <summary>For completeness -> SPI/I2C mapping for Ponder (Click to Expand)</summary>
+Ponder Pico2 uses SPI0, Ponder uses SPI1.
+
+| Function               | Ponder Pico2 | Ponder          |
+|:----------------------:|:------------:|:---------------:|
+| SPI**1** MISO/I2C0 SDA | N/A          | GPIO24          |
+| SPI**1** CSn/I2C0 SCL  | N/A          | GPIO25          |
+| SPI**1** SCK/I2C1 SDA  | N/A          | GPIO26          |
+| SPI**1** MOSI/I2C1 SCL | N/A          | GPIO27          |
+
+</details>
 
 ---
 
@@ -66,7 +64,7 @@ There are three LEDs on the board which aren't for use with the ISO UARTS, these
 
 1. USR - This is a user controllable LED, nominally used to indicate when the MCU has booted into user code
 1. USB - This LED is tied to VBUS on the USB connector to indicate presence of power.
-1. 3v3 - This is tied to the 3v3 line to indicate that the LDO is functional.
+1. 3v3 - This is tied to the 3v3 line from the Pico to indicate that the LDO is functional.
 
 ### Buttons
 
@@ -116,14 +114,10 @@ J12 .. J15 provides optional pull-up / pull-down configuration for each pin by j
 >[!TIP]
 >These pins could be used for GPIO.
 
-#### Spare IO
+#### Programming
 
-The board includes a few test points and a header which could be used for more signals if required.
+Test points are provided as an alternative to USB loading.
 
-1. 5, 6, 7, 9 are available for GPIO on test points, 15, 16, 17, 18 are available on J11.
-   1. ![GPIO Spares](assets/v1.0/spare-gpio.png ':size=500')
-1. 40, 41, 42 are available for ADCs.
-   1. ![ADC Spares](assets/v1.0/spare-adc.png ':size=80')
 1. Programming test points are grouped near the MCU.
    1. ![Prog](assets/v1.0/programming-tp.png ':size=150')
 

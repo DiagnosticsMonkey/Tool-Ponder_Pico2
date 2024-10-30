@@ -1,6 +1,6 @@
 # Design
 
-Design files are all available in `/hardware` of the Ponder repository.
+Design files are all available in `/hardware` of the Ponder_Pico2 repository.
 
 ## Appearance
 
@@ -25,7 +25,7 @@ Whilst the majority of the expanded headers are self explanatory, the following 
 Available in `/hardware/outputs`.
 
 ```pdf
-./assets/v1.0/Ponder.pdf
+./assets/v1.0/Ponder-Pico2.pdf
 ```
 
 ---
@@ -33,10 +33,6 @@ Available in `/hardware/outputs`.
 ## Miscellaneous
 
 The following lists any miscellany.
-
-### Serialisation
-
-Asset tracking is a varied and often business-bespoke mechanism. It is left to the user to implement suitible traceability for their own needs, boards are *not* serialised.
 
 ### Board Revision
 
@@ -55,3 +51,8 @@ Alternatively, if a board is used in a bespoke way, check the '/CTRLD' box to in
 
 >[!TIP]
 >The `/CTRLD` box can be useful if you have multiple boards which you're tracking the status of, but you're experimenting heavily with one and are never intending on returning it to a defined build standard.
+
+
+### Serialisation
+
+Serialisation is provided next to the Mod Strike box in the form `X-Y-ZZZZ`.
