@@ -94,8 +94,8 @@
     )
   )
 
-  (property "GIT_HEALTH" "dirty")
-  (property "GIT_VERSION" "v0.0.0-0-g1c144e3-dirty")
+  (property "GIT_HEALTH" "clean")
+  (property "GIT_VERSION" "v1.0-0-ge60dd12")
   (property "PROJECT_DESCRIPTION" "Hex Iso USB-UART")
   (property "PROJECT_NAME" "Ponder-Pico2")
 

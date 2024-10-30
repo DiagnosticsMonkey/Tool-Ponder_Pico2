@@ -618,7 +618,7 @@
   ],
   "text_variables": {
     "GIT_HEALTH": "clean",
-    "GIT_VERSION": "v0.0.0-3-g675ad66",
+    "GIT_VERSION": "v1.0-0-ge60dd12",
     "PROJECT_DESCRIPTION": "Hex Iso USB-UART",
     "PROJECT_NAME": "Ponder-Pico2"
   }
