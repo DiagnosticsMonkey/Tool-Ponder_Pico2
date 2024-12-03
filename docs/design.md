@@ -4,9 +4,21 @@ Design files are all available in `/hardware` of the Ponder_Pico2 repository.
 
 ## Appearance
 
-The board is reasonably self-explanatory for most users and is presented as follows:
+The board is _reasonably_ self-explanatory for most _intended_ users and is presented as follows:
+
+<!-- tabs:start -->
+
+#### **Render**
 
 ![Front of board](./assets/v1.0/Ponder-front.png ':size=300') ![Back of board](./assets/v1.0/Ponder-back.png ':size=310')
+
+#### **Photo**
+
+![Front of board](./assets/v1.0/frontph.jpg ':size=300') ![Back of board](./assets/v1.0/backph.jpg ':size=310')
+
+<!-- tabs:end -->
+
+See [here for more detail of features and usage](/features)
 
 ---
 
@@ -55,4 +67,4 @@ Alternatively, if a board is used in a bespoke way, check the '/CTRLD' box to in
 
 ### Serialisation
 
-Serialisation is provided next to the Mod Strike box in the form `X-Y-ZZZZ`.
+Serialisation is provided next to the Mod Strike box in the form `ZZZZ`.

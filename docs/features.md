@@ -53,8 +53,8 @@ Ponder Pico2 uses SPI0, Ponder uses SPI1.
 The following sections will cover detail of various interfaces across the board.
 
 >[!TIP]
->I _try_ to maintain the logic of not having `hot` pins.  
->This means that where possible, anything providing a supply voltage will be in the form of a socket. Conversely, anything to be supplied a voltage will be presented as a header.  
+>I _try_ to maintain the logic of not having `hot` supply pins as far as practicable.  
+>This means that where possible, anything intended to provide a supply voltage will be in the form of a socket. Conversely, anything to be supplied a voltage will be presented as a header.  
 >N.B. J10 is shown in renders as a header - It is a socket in the BoM. Its selection jumper, J9, is a 1.27 pitch for convenience.
 
 ---
@@ -82,13 +82,13 @@ The reset button resets the device
 ### USB (J1)
 
 The USB-C connector provides power to the board and is the primary mechanism for programming the board.  
-Doing the boards intended use-case, the USB connector is also used for the data handling for the CDC ACM endpoints (i.e. your PC providing multiple COM ports for accessing each of the UARTs on-board).
+During the boards intended use-case, the USB connector is also used for the data handling for the CDC ACM endpoints (i.e. your PC providing multiple COM ports for accessing each of the UARTs on-board).
 
 ---
 
 ### Isolated UARTs (J2, J3, J4, J5, J6, J7)
 
-The isolated UARTs are provided by six 4 pin, 2.54 pitch, headers around the edge. The isolators connected to these headers `must` be fed with a voltage and ground by **each** device under test, otherwise the UART comms will not be passed to the MCU.
+The isolated UARTs are provided by six 4 pin, 2.54 pitch, headers around the edge. The isolators connected to these headers `must` be fed with a voltage and ground reference by **each** device under test, otherwise the UART comms will not be passed to the MCU.
 
 - Supply voltage on VCC for `UART`[`0` .. `5`] is 2.375 .. 5.5V  
    - The isolators are also providing level translation and will support logic from 2v0 to 5v5.
@@ -99,7 +99,7 @@ The isolated UARTs are provided by six 4 pin, 2.54 pitch, headers around the edg
 
 ---
 
-### I2C / SPI / Breakout (J8, J11, TPs)
+### I2C / SPI / Breakout (J8, TPs)
 
 The board includes some additional connection options for users to experiment with.
 
@@ -112,7 +112,7 @@ J12 .. J15 provides optional pull-up / pull-down configuration for each pin by j
 ![SPI I2C](assets/v1.0/spi-i2c.png ':size=200')
 
 >[!TIP]
->These pins could be used for GPIO.
+>These pins could be used for GPIO, for example for triggering wider aspects of a test system.
 
 #### Programming
 
